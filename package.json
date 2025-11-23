@@ -6,6 +6,10 @@
   "scripts": {
     "test": "awesome-lint"
   },
+  "dependencies": {
+    "@tensorflow/tfjs": "latest",
+    "@tensorflow/tfjs-node": "latest"
+  },
   "devDependencies": {
     "awesome-lint": "latest"
   },
