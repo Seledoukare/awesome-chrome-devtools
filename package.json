@@ -1,10 +1,20 @@
 {
-  "name": "awesome-chrome-devtools",
+  "name": "sele-joy-universal",
   "version": "1.0.0",
-  "description": "Awesome tooling and resources in the Chrome DevTools ecosystem",
-  "main": "readme.md",
+  "description": "SELE-JOY Universal Video & AI Deployment Script",
+  "main": "selejoy-org-video.js",
   "scripts": {
+    "start": "node selejoy-org-video.js",
     "test": "awesome-lint"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "latest",
+    "@tensorflow/tfjs-node": "latest",
+    "canvas": "latest",
+    "slack-sdk": "latest",
+    "node-fetch": "latest",
+    "ffmpeg-static": "latest",
+    "fluent-ffmpeg": "latest"
   },
   "devDependencies": {
     "awesome-lint": "latest"
@@ -14,8 +24,11 @@
     "url": "git+https://github.com/ChromeDevTools/awesome-chrome-devtools.git"
   },
   "keywords": [
-    "chrome",
-    "devtools"
+    "sele-joy",
+    "universal",
+    "video",
+    "ai",
+    "deployment"
   ],
   "license": "CC-BY-4.0",
   "bugs": {
